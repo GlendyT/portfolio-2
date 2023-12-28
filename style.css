@@ -201,6 +201,11 @@ section {
     gap: 1rem;
 }
 
+.about-pic-1{
+    justify-content: center;
+    border-radius: 50%;
+}
+
 /* ICON */
 
 .icon {
@@ -403,7 +408,6 @@ article .icon {
 
 .contact-icon {
     cursor: default;
-    height: 2rem;
 }
 
 .email-icon {

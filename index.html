@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <link rel="icon" href="%PUBLIC_URL%/Agregar-un-título-_2_.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Glendy´s Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="mediaqueries.css"/>
 </head>
@@ -37,12 +38,16 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Glendy Tuyuc profile picture"/>
+            <img 
+             src="./assets/profile-pic.jpg" 
+             alt="Glendy Tuyuc profile picture"
+             class="about-pic-1"
+             />
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Glendy Tuyuc</h1>
-            <p class="section__text__p2">Developer</p>
+            <p class="section__text__p2">Web Developer</p>
             <div class="btn-container">
                 <button 
                  class="btn btn-color-2"
@@ -74,7 +79,7 @@
         <div class="section-container">
             <div class="section__pic-container">
                 <img  
-                 src="./assets/about-pic.png" 
+                 src="./assets/profile-pic.jpg" 
                  alt="Profile picture"
                  class="about-pic"
                  />
@@ -88,7 +93,7 @@
                          class="icon"
                          />
                          <h3>Experience</h3>
-                         <p>10 Months <br/>Developer</p>
+                         <p>10 Months <br/>Frontend Developer</p>
                     </div>
                     <div class="details-container">
                         <img 
@@ -97,11 +102,15 @@
                         class="icon"
                         />
                         <h3>Education</h3>
-                        <p>B.Sc Bachelor Degree<br/>M.Sc. Masters Degree</p>
+                        <p>2023 - Present UDEMY COURSE
+                        <br/>2023-Present University
+                        <br/>2018-2019 Associate´s Degree    
+                    </p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero accusantium mollitia necessitatibus fugit aut, doloribus aliquid consectetur non sed ad omnis neque velit molestias perspiciatis. Iure eum odit cum eius.</p>
+                    <p>I am a student of Systems Engineering and starting to be a Web developer, which is where I can find my self doing one of the things that I love.</p>
+                    <p>Coding, searching and solving errors is enjoyable to me. I am a positive, curious and hard working person, trying always to help and share my acknowladge and at the same time improving my soft and technical skills.</p>
                 </div>
             </div>
         </div>
@@ -149,6 +158,17 @@
                              class="icon"
                              />
                              <div>
+                                <h3>Bootstrap</h3>
+                                <p>Intermediate</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img 
+                             src="./assets/checkmark.png" 
+                             alt="Experience icon"
+                             class="icon"
+                             />
+                             <div>
                                 <h3>JavaScript</h3>
                                 <p>Basic</p>
                              </div>
@@ -171,11 +191,21 @@
                              class="icon"
                              />
                              <div>
-                                <h3>Materil UI</h3>
+                                <h3>Tailwind CSS</h3>
                                 <p>Intermediate</p>
                              </div>
                         </article>
-
+                        <article>
+                            <img 
+                             src="./assets/checkmark.png" 
+                             alt="Experience icon"
+                             class="icon"
+                             />
+                             <div>
+                                <h3>Reacj JS</h3>
+                                <p>Basic</p>
+                             </div>
+                        </article>
                     </div>
                 </div>
                 <div class="details-container">
@@ -188,7 +218,7 @@
                              class="icon"
                              />
                              <div>
-                                <h3>SQL</h3>
+                                <h3>MYSQL</h3>
                                 <p>Basic</p>
                              </div>
                         </article>
@@ -277,7 +307,7 @@
                 <div class="btn-container">
                     <button 
                      class="btn btn-color-2 project-btn"
-                     onclick="location.href=`https://github.com/GlendyT/citas_react_vite`"
+                     onclick="location.href=`https://github.com/GlendyT/Presupuestos`"
                      >
                         GitHub
                     </button>
@@ -301,13 +331,37 @@
                 <div class="btn-container">
                     <button 
                      class="btn btn-color-2 project-btn"
-                     onclick="location.href=`https://github.com/GlendyT/citas_react_vite`"
+                     onclick="location.href=`https://github.com/GlendyT/Criptomonedas`"
                      >
                         GitHub
                     </button>
                     <button 
                     class="btn btn-color-2 project-btn"
-                    onclick="location.href=`https://app-para-planificar-gastos.netlify.app/`"
+                    onclick="location.href=`https://app-de-conversion-criptomonedas.netlify.app/`"
+                    >
+                      Live Demo
+                   </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                     src="./assets/project-4.png"
+                     alt="Project 4"
+                     class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button 
+                     class="btn btn-color-2 project-btn"
+                     onclick="location.href=`https://github.com/GlendyT/Netflix-clone`"
+                     >
+                        GitHub
+                    </button>
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href=`https://paginanetflixclone.vercel.app/auth/`"
                     >
                       Live Demo
                    </button>
