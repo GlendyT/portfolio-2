@@ -146,7 +146,7 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -276,6 +276,8 @@ section {
 .about-containers,
 .about-details-container {
     display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .about-pic {
@@ -370,6 +372,14 @@ article .icon {
     color: black;
 }
 
+.project-title1 {
+    margin: 1rem;
+    color: #8c0dcc;
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
@@ -380,7 +390,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 100vh;
 }
 
 .contact-info-upper-container {
